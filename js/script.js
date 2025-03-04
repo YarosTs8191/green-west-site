@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Генеруємо HTML для 50 зображень
       let photoHTML = `
         <a href="public/work${i}.jpg" data-fancybox="gallery">
-            <img src="public/work${i}-thumb.jpg" alt="Робота ${i}" loading="lazy">
+            <img src="public/work${i}-thumb.jpg" alt=" foto${i}" loading="lazy">
         </a>
       `;
       galleryContainer.innerHTML += photoHTML;
